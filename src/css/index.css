@@ -1,0 +1,101 @@
+.gradient-text {
+  font-size: 3rem;
+  background-image: linear-gradient(90deg, #3470e7, #5f003f);
+  -webkit-background-clip: text;
+  color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.image-slider {
+  display: flex;
+  gap: 1em;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+}
+.image-slider::-webkit-scrollbar {
+  width: 1em;
+  height: 1em;
+}
+.image-slider::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+  height: 1em;
+}
+.image-slider::-webkit-scrollbar-thumb {
+  background-color: gray;
+  height: 1em !important;
+}
+.image-slider .imgs {
+  width: 300px;
+}
+.image-slider .btns {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  background-color: antiquewhite;
+  transform: translateY(-50%);
+  height: 2em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  border: none;
+  border-radius: 50%;
+}
+.image-slider .prev {
+  top: 50%;
+  left: 0;
+}
+.image-slider .next {
+  top: 50%;
+  right: 0;
+}
+
+.highlight span {
+  flex: 1;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.5s ease;
+  background-position: 0 0.2em;
+}
+.highlight:hover span {
+  background-size: 100% 100%;
+  color: black;
+}
+
+.login-page .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.login-page .form input {
+  max-width: 300px;
+  padding: 1em;
+  outline: none;
+}
+.login-page .form input:focus {
+  border: 2px solid dodgerblue;
+}
+.login-page .form button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1em 3em;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 2em;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}/*# sourceMappingURL=index.css.map */

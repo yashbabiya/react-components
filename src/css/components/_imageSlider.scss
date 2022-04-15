@@ -1,0 +1,49 @@
+.image-slider{
+    display: flex;
+    gap: 1em;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+        width: 1em;
+        height: 1em;
+      }
+      
+      &::-webkit-scrollbar-track {
+        background-color: whitesmoke;
+        height: 1em;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background-color: gray;
+        
+        height: 1em !important;
+      }
+
+    .imgs{
+        width: 300px;
+    }
+    .btns{
+        position: sticky;
+        z-index: 10;
+        background-color: antiquewhite;
+        transform: translateY(-50%);
+        height: 2em;
+        width: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        border: none;
+        border-radius: 50%;
+    }
+    .prev{
+        top: 50%;
+        left: 0;
+       
+    }
+    .next{
+        top: 50%;
+        right: 0;
+    }
+}

@@ -1,0 +1,10 @@
+.gradient-text{
+    font-size: 3rem;
+    background-image: linear-gradient(90deg,#3470e7,#5f003f);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

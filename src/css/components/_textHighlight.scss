@@ -1,0 +1,25 @@
+.highlight{
+    
+    span{
+
+        flex: 1;
+        
+        
+        
+        background-image: linear-gradient(to right, yellow 0, yellow 100%);
+        background-position: 0 1.2em;
+        background-size: 0 100%;
+        background-repeat: no-repeat;
+        display: inline;
+        transition: .5s ease;
+        background-position: 0 0.2em;
+      } 
+      // background-position: 0 -0.1em;
+      &:hover{
+          span{
+
+              background-size: 100% 100%;
+              color: black;
+          }
+      }
+}

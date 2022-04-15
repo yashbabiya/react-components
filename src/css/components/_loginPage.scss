@@ -1,0 +1,24 @@
+.login-page{
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        input{
+            max-width: 300px;
+            padding: 1em;
+            outline: none;
+            &:focus{
+                border: 2px solid dodgerblue;
+            }
+
+        }
+        button{
+            width: fit-content;
+            padding: 1em 3em;
+            border: none;
+            background-color: dodgerblue;
+            color: white;
+            border-radius: 2em;
+        }
+    }
+}
